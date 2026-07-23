@@ -39,3 +39,26 @@ Not memorization.
 Not accuracy.
 
 Generalization.
+
+## cross validation
+
+Cross-validation estimates how well a model is likely to perform on unseen data by repeatedly training and evaluating it on different subsets of the dataset.
+
+## Parameters vs Hyperparameters
+
+This distinction is asked in interviews all the time.
+
+Parameters	Hyperparameters
+Learned by the model	Chosen before training
+Example: tree split values	Example: number of trees
+Model discovers them	We specify them
+
+Interview definition:
+
+Parameters are learned from the training data, while hyperparameters are configured before training and control how the learning process occurs.
+
+## If an interviewer asks:
+
+"How would you explain a Random Forest prediction to a business stakeholder?"
+
+SHAP helps us to give a good answer because SHAP tells us which features actually influence predicitions.
